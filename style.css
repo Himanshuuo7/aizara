@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 30px;
+}
+
+#logo{
+    width: 20vw;
+}
+
+h1{
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#name{
+    color: rgb(222, 45, 163);
+    font-size: 45px;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#va{
+    color: rgb(56, 196, 206);
+    font-size: 45px;
+}
+
+#voice{
+    height: 150px;
+    display: none;
+}
+
+#btn{
+    width: 30%;
+    background:linear-gradient(to right,rgb(21, 159, 198),rgb(212, 52, 175));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px rgb(21, 159, 198), 2px 2px 10px rgb(212, 52, 175);
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(21, 159, 198), 2px 2px 20px rgb(212, 52, 175);
+    letter-spacing: 2px;     
+}
+
+@media (max-width:600px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #logo{
+        width: 45vw;
+    }
+
+    h1{
+        font-family: "Protest Guerrilla", sans-serif;
+        font-size: 5vw;
+    }
+    
+    #text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #name{
+        color: rgb(222, 45, 163);
+        font-size: 25px;
+    }
+    #va{
+        color: rgb(56, 196, 206);
+        font-size: 25px;
+    }
+    #voice{
+        height: 120px;
+        display: none;
+    }
+    #btn{
+        width: 70%;
+        background:linear-gradient(to right,rgb(21, 159, 198),rgb(212, 52, 175));
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 18px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 10px rgb(21, 159, 198), 2px 2px 10px rgb(212, 52, 175);
+        color: white;
+        border: none;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,1 @@
+js me sabse pahle ek speechsynthesisUtterance name ka ek object bnaya usme text pass kiya or usko text_speak object me dal diya fir uski rate ,volume, pitch ko 1 kar diya fir window me speechsynthesis  me speak function ke under text_speak ko call kar diya.
